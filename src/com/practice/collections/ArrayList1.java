@@ -3,6 +3,7 @@ package com.practice.collections;
 import java.util.ArrayList;
 import java.util.List;
 public class ArrayList1 {
+	
 //		1. List allows all types of values  (indexed)
 //		2. Duplicates are allowed 
 //		3. Insertion order is preserved

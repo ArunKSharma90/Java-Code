@@ -1,7 +1,5 @@
 package com.uis.fundamentals;
-
 public class Java19_PowerOfNumber {
-
 	public static void main(String[] args) {
 		
 		int base = 3;
@@ -11,7 +9,6 @@ public class Java19_PowerOfNumber {
 		// using for loop
 		for (int i=1; i<= exponent; i ++) {
 			result *= base;
-
 		}
 		System.out.println("the result using for loop is " + result);
 		result = 1;  // reset for next calculation method

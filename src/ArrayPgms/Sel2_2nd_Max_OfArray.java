@@ -11,7 +11,7 @@ package ArrayPgms;
 public class Sel2_2nd_Max_OfArray {
 
 	public static void main(String[] args) {
-		int arr[] = { 20, 2, 11, 9, 63, 1, 8 };
+		int arr[] = { 20, 52, 11, 9, 63, 1, 8 };
 		int max = arr[0];
 		int secMax = arr[0];
 		int maxIndex=0, secMaxIndex=0;

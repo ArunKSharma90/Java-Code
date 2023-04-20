@@ -8,13 +8,13 @@ public class Java23_Armstrong {
 		
 		// Method 1 => if number is already given to be checked whether Arwmstrong or not
 		
-		int num = 371; 
+		int num = 1634; 
 		int originalNum = num; 
 		int rem, sum=0; 
 		
 		while(num > 0) { 
 			rem = num%10;
-			sum = sum + (int) Math.pow(rem, 3);
+			sum = sum + (int) Math.pow(rem, 4);
 			num = num/10;
 		}
 		

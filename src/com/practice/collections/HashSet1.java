@@ -12,12 +12,13 @@ public class HashSet1 {
 //	5. To fetch values from Set/HashSet no direct method is available, need to use iterator
 //	6. No concept of indexes in Set
 	public static void main(String[] args) {
-		
+		int x = 25;
 		Set<Integer> set1 = new HashSet<Integer>();
 		set1.add(2);
 		set1.add(12);
 		set1.add(179398);
 		set1.add(null);
+		set1.add(Integer.valueOf("123"));
 		System.out.println(set1);
 		
 		Set<String> set2 = new HashSet<String>();

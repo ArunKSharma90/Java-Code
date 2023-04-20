@@ -3,7 +3,7 @@ package com.uis.fundamentals;
 public class Java17_NumberOfDigits {
 
 	public static void main(String[] args) {
-		int num = 624646;  // just not using scanner class input for this ex. 
+		int num = -6;  // just not using scanner class input for this ex. 
 		
 		int count = 0;
 		
