@@ -1,12 +1,10 @@
 package ArrayPgms;
-
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
 public class ValuesAppearingNTimes {
-
 	public static void main(String[] args) {
 		int[] arr = {1,2,2,4,4,2,3,3,6,6};
 		int repeatCount =3 ;  			// if this is 2 means - print the values appearing two times in array
